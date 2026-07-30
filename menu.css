@@ -1,0 +1,40 @@
+.navbar{
+    position:fixed;
+    width:100%;
+    top:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 8%;
+
+    z-index:1000;
+
+    transition:.4s;
+}
+
+.navbar.scrolled{
+    background:rgba(20,12,8,.92);
+    backdrop-filter:blur(12px);
+}
+
+.logo{
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#f3d38a;
+}
