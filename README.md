@@ -1,0 +1,1 @@
+Edite apenas data.js para adicionar categorias, preços e ocultar itens usando visivel:false.
